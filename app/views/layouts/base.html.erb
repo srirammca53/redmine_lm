@@ -50,8 +50,7 @@
     </div>
 
     <% end %>
-
-    <h1><%= page_header_title %></h1>
+<img src="<%= Redmine::Utils.relative_url_root %>/images/logicmatter.jpg" style="top-margin: 15px; left-margin: 15px; width: 300px; height:50px;"/>
 
     <% if display_main_menu?(@project) %>
     <div id="main-menu">
@@ -79,7 +78,7 @@
 
 <div id="footer">
   <div class="bgl"><div class="bgr">
-    Powered by <%= link_to Redmine::Info.app_name, Redmine::Info.url %> &copy; 2006-2012 Jean-Philippe Lang
+    <a href="http://logicmatter.com">Logicmatter.com</a>
   </div></div>
 </div>
 </div>

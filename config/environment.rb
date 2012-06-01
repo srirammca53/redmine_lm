@@ -35,6 +35,7 @@ Rails::Initializer.run do |config|
   # (remember to create the caching directory and make it readable to the application)
   # config.action_controller.cache_store = :file_store, "#{RAILS_ROOT}/tmp/cache"
 
+
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
   config.active_record.observers = :message_observer, :issue_observer, :journal_observer, :news_observer, :document_observer, :wiki_content_observer, :comment_observer

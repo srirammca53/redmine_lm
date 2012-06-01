@@ -10,7 +10,7 @@ h4, .wiki h3 {font-size: 13px;padding: 2px 10px 1px 0px;margin-bottom: 5px; bord
 /***** Layout *****/
 #wrapper {background: white;}
 
-#top-menu {background: #000; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 2px 0px 6px;}
+#top-menu {background: green; color: #fff; height:2.8em; font-size: 0.8em; padding: 2px 2px 0px 6px;}
 #top-menu ul {margin: 0;  padding: 0;}
 #top-menu li {
   float:left;
@@ -20,13 +20,13 @@ h4, .wiki h3 {font-size: 13px;padding: 2px 10px 1px 0px;margin-bottom: 5px; bord
   white-space:nowrap;
 }
 #top-menu a {color: #fff; margin-right: 8px; font-weight: bold;}
-#top-menu #loggedas { float: right; margin-right: 0.5em; color: #fff; }
+#top-menu #loggedas { float: right; margin-right: 1.5em; color: #fff; }
 
 #account {float:right;}
 
-#header {height:5.3em;margin:0;background-color:#463E41;color:#ffffff; padding: 4px 8px 0px 6px; position:relative;}
+#header {height:6.3em;margin:0;background-color:#ffffff;color:#000000; padding: 4px 8px 0px 525px; position:relative;}
 #header a {color:#f8f8f8;}
-#header h1 a.ancestor { font-size: 80%; }
+#header h1 a.ancestor { font-size: 90%; }
 #quick-search {float:right;}
 
 #main-menu {position: absolute;  bottom: 0px;  left:6px; margin-right: -500px;}
