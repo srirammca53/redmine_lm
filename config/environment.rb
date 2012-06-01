@@ -23,7 +23,7 @@ Rails::Initializer.run do |config|
 
   # Skip frameworks you're not going to use
   # config.frameworks -= [ :action_web_service, :action_mailer ]
-
+#config.action_controller.session_store = :active_record_store
   # Add additional load paths for sweepers
   config.autoload_paths += %W( #{RAILS_ROOT}/app/sweepers )
 

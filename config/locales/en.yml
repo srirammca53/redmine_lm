@@ -141,7 +141,7 @@ en:
   general_first_day_of_week: '7'
 
   notice_account_updated: Account was successfully updated.
-  notice_account_invalid_creditentials: Invalid user or password
+  notice_account_invalid_creditentials: Account was successfully created and waiting for Approval 
   notice_account_password_updated: Password was successfully updated.
   notice_account_wrong_password: Wrong password
   notice_account_register_done: Account was successfully created. To activate your account, click on the link that was emailed to you.
@@ -512,7 +512,7 @@ en:
   label_please_login: Please log in
   label_register: Register
   label_login_with_open_id_option: or login with OpenID
-  label_password_lost: Lost password
+  label_password_lost: Forget Password
   label_home: Home
   label_my_page: My page
   label_my_account: My account
