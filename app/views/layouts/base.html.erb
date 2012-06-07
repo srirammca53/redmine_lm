@@ -50,7 +50,7 @@
     </div>
 
     <% end %>
-<img src="<%= Redmine::Utils.relative_url_root %>/images/logicmatter.jpg" style="top-margin: 15px; left-margin: 15px; width: 300px; height:50px;"/>
+<!--<img src="<%= Redmine::Utils.relative_url_root %>/images/logicmatter.jpg" style="top-margin: 15px; left-margin: 15px; width: 300px; height:50px;"/>-->
 
     <% if display_main_menu?(@project) %>
     <div id="main-menu">
@@ -76,11 +76,7 @@
 <div id="ajax-indicator" style="display:none;"><span><%= l(:label_loading) %></span></div>
 <div id="ajax-modal" style="display:none;"></div>
 
-<div id="footer">
-  <div class="bgl"><div class="bgr">
-    <a href="http://logicmatter.com">Logicmatter.com</a>
-  </div></div>
-</div>
+
 </div>
 </div>
 <%= call_hook :view_layouts_base_body_bottom %>
